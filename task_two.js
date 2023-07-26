@@ -1,5 +1,10 @@
-const userInput = [2, -5, 10, -3, 7];
-const userOutput = 19;
+/*
+Task 2 : Create a function that takes an array of numbers as input and returns the sum of all positive numbers in the array. 
+
+Example Input: [2, -5, 10, -3, 7] Example Output: 19
+
+ */
+
 const positive_sum = (arr) => {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
@@ -7,4 +12,6 @@ const positive_sum = (arr) => {
   }
   return sum;
 };
+const userInput = [2, -5, 10, -3, 7];
+const userOutput = 19;
 console.log(positive_sum(userInput));
